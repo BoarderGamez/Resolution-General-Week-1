@@ -1,0 +1,40 @@
+body {
+    font-family: 'comic sans ms';
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom:20px
+}
+.cheese{
+    color: #df8e1d;
+}
+@keyframes un-spin-around{
+    from {color:#1ddfd5}
+    to {color: #df8e1d;}
+}
+h1 {
+    text-align:center;
+    align-self:auto;
+    color: #df8e1d;
+    font-size: 5em;
+    animation-name: un-spin-around;
+    animation-duration: 2s;
+}
+@keyframes spin-around{
+    from {color:#df8e1d}
+    to {color:#1ddfd5}
+}
+h1:hover{
+    animation-name: spin-around;
+    animation-duration: 2s;
+}
+img{
+    align-self: center;
+    text-align: center;
+    border-radius: 10%;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    display: block;
+    margin: 0 auto;
+}
