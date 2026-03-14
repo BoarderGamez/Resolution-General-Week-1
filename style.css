@@ -20,8 +20,8 @@ h1 {
     animation-duration: 2s;
 }
 @keyframes spin-around{
-    from {color:#df8e1d}
-    to {color:#1ddfd5}
+    from {color:#df8e1d; background-color: #df8e1d;}
+    to {color:#1ddfd5; background-color: #1ddfd5;}
 }
 h1:hover{
     animation-name: spin-around;
@@ -37,4 +37,14 @@ img{
     justify-items: center;
     display: block;
     margin: 0 auto;
+}
+button {
+    color: green;
+    background-color: aqua;
+    border-width: 0;
+    border-radius:100px;
+}
+button:hover{
+    animation-name: spin-around;
+    animation-duration: 2s;
 }
